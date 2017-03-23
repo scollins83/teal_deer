@@ -1,4 +1,5 @@
 # Teal Deer
+### TLDR_LDA_and_Text_Summarization.ipynb is the primary current notebook. 
 Currently just hacking notebook. However, the notebook scrapes text from a directory of academic research pdf's, 
 and then does LDA on it for prioritization of reading. Dataset for this run included just a handful of papers 
 on chatbots from arxiv. OCR portion relies on: https://github.com/euske/pdfminer/blob/master/tools/pdf2txt.py
