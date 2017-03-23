@@ -10,7 +10,7 @@ summarized as well.
 <br><br>
 **Planned updates - See project tab as well:**<br>
    + Finish out OCR from PDF files part
-   + Complete the text summarization portion
+   + Complete the text summarization portion - Thanks to Siraj Raval for making the video: https://www.youtube.com/watch?v=ogrJaOIuBx4
    + Clean up into python scripts with test suites
    + Experiment with other front-end usecases: i.e., a slackbot is currently underway (notebook to be added later). 
    + Add a CI framework into this repo.
