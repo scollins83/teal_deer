@@ -1,11 +1,14 @@
 # Teal Deer
 Currently just hacking notebook. However, the notebook scrapes text from a directory of academic research pdf's, 
 and then does LDA on it for prioritization of reading. Dataset for this run included just a handful of papers 
-on chatbots from arxiv.
-In process: Adding a text summarization feature to try to generate abstracts or short summaries for large blocks
+on chatbots from arxiv. OCR portion relies on: https://github.com/euske/pdfminer/blob/master/tools/pdf2txt.py
+<br><br>
+**In process:** <br>
+Adding a text summarization feature to try to generate abstracts or short summaries for large blocks
 of text (i.e., an abstract for the rest of a paper). So, not only could papers be prioritized, but could be
 summarized as well.
-Planned updates - See project tab as well:
+<br><br>
+**Planned updates - See project tab as well:**<br>
    + Finish out OCR from PDF files part
    + Complete the text summarization portion
    + Clean up into python scripts with test suites
