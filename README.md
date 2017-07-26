@@ -1,8 +1,7 @@
 # Teal Deer
 ### TLDR_LDA_and_Text_Summarization.ipynb is the primary current notebook. 
-Currently just hacking notebook. However, the notebook scrapes text from a directory of academic research pdf's, 
-and then does LDA on it for prioritization of reading. Dataset for this run included just a handful of papers 
-on chatbots from arxiv, but this notebook has been tested on corpuses of several hundred documents in another domain with favorable results. OCR portion relies on: https://github.com/euske/pdfminer/blob/master/tools/pdf2txt.py
+Currently just hacking notebook. The notebook scrapes text from a directory of academic research pdf's, 
+and then does LDA on it for prioritization of reading, and then trains a text summarization model based on the abstracts of the papers--- that way, if you find more, you can use the model to summarize them right away. Dataset for this run included just a handful of papers on chatbots from arxiv, but this notebook has been tested on corpuses of several hundred documents from both arXiv and google scholar in another domain with favorable results. OCR portion relies on: https://github.com/euske/pdfminer/blob/master/tools/pdf2txt.py
 <br><br>
 **In process:** <br>
 Convert the notebook to a straight .py script to add the text summarization, which aims to generate abstracts or short summaries for large blocks
